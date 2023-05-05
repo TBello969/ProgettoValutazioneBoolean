@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.containerTotale{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    height: 750px;
+    margin: auto;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 200PX;
+}
+
+.logo-text{
+    font-size: 25px;
+    color: rgb(60, 238, 60);
+}
+
+.Opzioni-Nav{
+    background-color: rgb(60, 238, 60);
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Opzioni-Main{
+    margin: auto;
+    width: 800px;
+    color: white;
+}
+
+.arrow:before{
+    content: "\21A6";
+}
+
+.User-Monopattino{
+    display: inline-block;
+}
+
+.Carica1, .Carica2, .Carica3{
+    height: 25px;
+}
+
+.Carica1{
+    background-color: peachpuff;
+    width: 400px;
+}
+
+.Carica2{
+    background-color: green;
+    width: 500px;
+}
+
+.Carica3{
+    background-color: rgb(211, 25, 56);
+    width: 200px;
+}
